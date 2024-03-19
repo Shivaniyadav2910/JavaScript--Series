@@ -66,3 +66,14 @@ let gameCounter=100
 // gameCounter++;
 ++gameCounter;
 // console.log(gameCounter); //101
+
+// **********PostFix increment and Prefix increment***********/
+let x=3;
+const y=x++;
+console.log(y);    //y is3
+console.log(x);    //x is 4
+
+let x2=3;
+const y2=++x2;
+console.log(x2);  //4
+console.log(y2);//4

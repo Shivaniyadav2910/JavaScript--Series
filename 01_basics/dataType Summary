@@ -1,0 +1,40 @@
+//Primiitive
+//7 types:String ,numbers,boolean,null,undefined,symbol,bignit
+
+const score=100;
+const scoreValue=100.3;
+
+const isLoggedIn=false; 
+const outSideTemp=null;
+
+let usreEmail; //=undefined
+
+const id =Symbol('123');
+const anotherId=Symbol('123');
+
+console.log(id===anotherId);  //false
+
+const bigNumber = 3456543576654356754n;   //bigint
+
+//Reference (Non primitive)
+//Array,objects,Function
+
+const heros=["shaktiman","naagraj","doga"];
+let myObj ={
+    name:"shivani",
+    age:22,
+}
+
+const myFunction=function(){
+   console.log("hello world");
+}
+
+console.log(typeof bigNumber);   //bigint
+console.log(typeof outSideTemp);   //object
+console.log(typeof myFunction);    //function
+console.log(typeof anotherId);  //function object
+
+//JavaScript is a dynamic typed language this is the example
+// var c=4;
+// c='I am string now';
+// console.log(c)
